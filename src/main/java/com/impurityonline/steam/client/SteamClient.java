@@ -3,7 +3,7 @@ package com.impurityonline.steam.client;
 import com.impurityonline.steam.exception.RestTemplateClientException;
 import com.impurityonline.steam.exception.SteamClientLibraryHttpRequestException;
 import com.impurityonline.steam.properties.SteamProperties;
-import com.impurityonline.steam.response.SteamApiLibraryResponse;
+import com.impurityonline.steam.client.response.SteamApiLibraryResponse;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

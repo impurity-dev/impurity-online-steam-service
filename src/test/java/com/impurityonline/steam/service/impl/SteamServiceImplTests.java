@@ -4,7 +4,7 @@ import com.impurityonline.steam.client.SteamClient;
 import com.impurityonline.steam.domain.SteamLibrary;
 import com.impurityonline.steam.domain.SteamLibraryGame;
 import com.impurityonline.steam.exception.SteamLibraryNotFoundException;
-import com.impurityonline.steam.response.SteamApiLibraryResponse;
+import com.impurityonline.steam.client.response.SteamApiLibraryResponse;
 import com.impurityonline.steam.utils.AbstractTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

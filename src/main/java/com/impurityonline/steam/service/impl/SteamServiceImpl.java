@@ -4,7 +4,7 @@ import com.impurityonline.steam.client.SteamClient;
 import com.impurityonline.steam.domain.SteamLibrary;
 import com.impurityonline.steam.domain.SteamLibraryGame;
 import com.impurityonline.steam.exception.SteamLibraryNotFoundException;
-import com.impurityonline.steam.response.SteamApiLibraryResponse;
+import com.impurityonline.steam.client.response.SteamApiLibraryResponse;
 import com.impurityonline.steam.service.SteamService;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;

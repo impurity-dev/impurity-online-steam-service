@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.impurityonline.steam.exception.RestTemplateServerException;
 import com.impurityonline.steam.exception.SteamClientLibraryHttpRequestException;
 import com.impurityonline.steam.properties.SteamProperties;
-import com.impurityonline.steam.response.SteamApiLibraryResponse;
+import com.impurityonline.steam.client.response.SteamApiLibraryResponse;
 import com.impurityonline.steam.utils.AbstractTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
