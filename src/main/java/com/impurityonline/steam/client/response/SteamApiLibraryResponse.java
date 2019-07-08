@@ -1,4 +1,4 @@
-package com.impurityonline.steam.response;
+package com.impurityonline.steam.client.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.impurityonline.steam.domain.SteamLibrary;
