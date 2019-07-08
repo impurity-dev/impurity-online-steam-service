@@ -1,5 +1,6 @@
 package com.impurityonline.steam.config;
 
+import com.impurityonline.steam.SteamApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
@@ -16,6 +17,7 @@ import java.util.*;
 
 import static com.impurityonline.steam.constant.Profiles.LOCAL;
 
+
 /**
  * @author impurity
  */
@@ -30,8 +32,8 @@ public class SwaggerConfig {
     private static final Collection<VendorExtension> DEFAULT_VENDOREXTENTIONS = new LinkedList<>();
 
     private static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
-            "Web Integrator",
-            "A Restful API to query apis", "1.0.0",
+            "Impurity Online Steam Service",
+            "A Restful API to query the steam api", "1.0.0",
             "N/A", DEFAULT_CONTACT,
             "GNU General Public License v3.0",
             "https://github.com/tmk2003/twitch-web-integrator/blob/master/LICENSE",
@@ -44,7 +46,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.impurity.twitchwebintegrator.controller"))
+                .apis(RequestHandlerSelectors.basePackage(SteamApplication.class.getPackageName() + ".controller"))
                 .build()
                 .apiInfo(DEFAULT_API_INFO)
                 .produces(DEFAULT_PRODUCES_AND_CONSUMES)
