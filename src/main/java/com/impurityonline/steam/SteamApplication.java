@@ -3,6 +3,9 @@ package com.impurityonline.steam;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author impurity
+ */
 @SpringBootApplication
 public class SteamApplication {
 
